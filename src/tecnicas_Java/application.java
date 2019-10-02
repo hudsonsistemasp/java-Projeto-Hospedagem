@@ -2,6 +2,7 @@ package tecnicas_Java;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 import entities.Hospedagem;
 
@@ -9,7 +10,9 @@ public class application {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		
+		Locale.setDefault(Locale.US);
+		
 		//Para leitura no teclado
 		Scanner sc = new Scanner(System.in);
 		
